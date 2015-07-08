@@ -1,0 +1,69 @@
+// https://toconnor.api.oneall.com/connections/1ba864ae-17d7-41d1-bd1c-3e45eb3f819b.json
+{
+   "response":{
+      "request":{
+         "date":"Wed, 29 May 2013 03:43:15 +0200",
+         "resource":"\/connections\/1ba864ae-17d7-41d1-bd14-3e45eb3f819b.json",
+         "status":{
+            "flag":"success",
+            "code":200,
+            "info":"Your request has been processed successfully"
+         }
+      },
+      "result":{
+         "status":{
+            "flag":"success",
+            "code":200,
+            "info":"The user successfully authenticated"
+         },
+         "data":{
+            "action":"authenticate_user",
+            "plugin":{
+               "key":"social_login",
+               "data":{
+                  "action":"login",
+                  "operation":"user_profile_read",
+                  "reason":"user_authenticated",
+                  "status":"success"
+               }
+            },
+            "connection":{
+               "connection_token":"1ba864ae-17d7-41d1-bd1c-3e45e43f819b",
+               "date":"Wed, 29 May 2013 03:42:32 +0200"
+            },
+            "user":{
+               "uuid":"5b0bf2cc-1f95-4e43-961e-443829f7e4cf",
+               "user_token":"5b0bf2cc-1f95-4e43-961e-443829f7e4cf",
+               "identity":{
+                  "identity_token":"6bbe9905-d103-4b4f-b018-87ecd8f2749d",
+                  "provider":"windowslive",
+                  "source":{
+                     "name":"Windows Live",
+                     "key":"windowslive"
+                  },
+                  "id":"http:\/\/profile.live.com\/cid-1c46e2ba89cd5a30\/",
+                  "profileUrl":"https:\/\/profile.live.com\/",
+                  "emails":[
+                     {
+                        "value":"msn@toconnor.com",
+                        "is_verified":true
+                     }
+                  ],
+                  "urls":[
+                     {
+                        "value":"https:\/\/profile.live.com\/",
+                        "type":"profile"
+                     }
+                  ],
+                  "accounts":[
+                     {
+                        "domain":"live.com",
+                        "userid":"1c46e2ba89cd5a30"
+                     }
+                  ]
+               }
+            }
+         }
+      }
+   }
+}

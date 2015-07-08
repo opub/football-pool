@@ -1,0 +1,88 @@
+// https://toconnor.api.oneall.com/connections/5c457f67-d631-4986-9cb3-2e6f8db7e48c.json
+{
+	"response":	
+	{
+		"request":		
+		{
+			"date":"Sat, 25 May 2013 04:42:57 +0200",
+			"resource":"\/connections\/5c457f67-d631-4986-9cb3-2g6f8db7e48c.json",
+			"status":			
+			{
+				"flag":"success",
+				"code":200,
+				"info":"Your request has been processed successfully"
+			}
+		},
+		"result":			
+		{
+			"status":				
+			{
+				"flag":"success",
+				"code":200,
+				"info":"The user successfully authenticated"
+			},
+			"data":				
+			{
+				"action":"authenticate_user",
+				"plugin":
+				{
+					"key":"social_login",
+					"data":
+					{
+						"action":"login",
+						"operation":"user_profile_read",
+						"reason":"user_authenticated",
+						"status":"success"
+					}
+				},
+				"connection":
+				{
+					"connection_token":"5c457f67-d631-4986-9cb3-2g6f8db7e48c",
+					"date":"Sat, 25 May 2013 04:36:36 +0200"
+				},
+				"user":
+				{
+					"uuid":"195648c4-4162-492e-b5eb-d4dc6cc80d6c",
+					"user_token":"195648c4-4162-492e-b5eb-d4dc6cc80d6c",
+					"identity":
+					{
+						"identity_token":"dab0a32c-753e-4ff1-bc13-3e6786437f09",
+						"provider":"google",
+						"source":
+						{
+							"name":"Google",
+							"key":"google"
+						},
+						"id":"https:\/\/www.google.com\/accounts\/o8\/id?id=AItOawlRxYJGPWCIAWWY7JlckzlQWjiCxaPRuIo",
+						"displayName":"Ted O'Connor",
+						"name":
+						{
+							"formatted":"Ted O'Connor",
+							"givenName":"Ted",
+							"familyName":"O'Connor"
+						},
+						"emails":[
+						{
+							"value":"toconnor@gmail.com",
+							"is_verified":true
+						}],
+						"urls":[
+						{
+							"value":"https:\/\/www.google.com\/profiles\/109920430443863841558",
+							"type":"profile"
+						}],
+						"accounts":[
+						{
+							"domain":"google.com",
+							"userid":"109920430544863841558"
+						}],
+						"languages":[
+						{
+							"value":"English"
+						}]
+					}
+				}
+			}
+		}
+	}
+}

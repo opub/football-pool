@@ -1,0 +1,98 @@
+// https://toconnor.api.oneall.com/connections/db8ee26a-7102-4792-bafc-6050d2f6178b.json
+{
+   "response":{
+      "request":{
+         "date":"Wed, 29 May 2013 03:33:07 +0200",
+         "resource":"\/connections\/db8ee26a-7102-4792-bafc-6054d2f6178b.json",
+         "status":{
+            "flag":"success",
+            "code":200,
+            "info":"Your request has been processed successfully"
+         }
+      },
+      "result":{
+         "status":{
+            "flag":"success",
+            "code":200,
+            "info":"The user successfully authenticated"
+         },
+         "data":{
+            "action":"authenticate_user",
+            "plugin":{
+               "key":"social_login",
+               "data":{
+                  "action":"login",
+                  "operation":"user_profile_read",
+                  "reason":"user_authenticated",
+                  "status":"success"
+               }
+            },
+            "connection":{
+               "connection_token":"db8ee26a-7102-4792-bafc-6050d4f6178b",
+               "date":"Wed, 29 May 2013 03:31:49 +0200"
+            },
+            "user":{
+               "uuid":"2795f3e3-513d-460b-a3cd-3d9445a459f0",
+               "user_token":"2795f3e3-513d-460b-a3c4-3d9445a259f0",
+               "identity":{
+                  "identity_token":"59510a03-e4ad-44d9-a6e3-24d1659d689c",
+                  "provider":"linkedin",
+                  "source":{
+                     "name":"LinkedIn",
+                     "key":"linkedin"
+                  },
+                  "id":"http:\/\/api.linkedin.com\/v1\/people\/id=e37krkY44O",
+                  "displayName":"Ted O'Connor",
+                  "name":{
+                     "formatted":"Ted O'Connor",
+                     "givenName":"Ted",
+                     "familyName":"O'Connor"
+                  },
+                  "preferredUsername":"Ted O'Connor",
+                  "profileUrl":"http:\/\/www.linkedin.com\/in\/oconnor",
+                  "thumbnailUrl":"http:\/\/m3.licdn.com\/mpr\/mprx\/0_B1FpRCh70bmK0re4zr9_R3Kux3UYj9J3vB1_Rh3j8b7mGtaTRzcrv8v1l2RTYA4DnrLGqb1aCONe",
+                  "pictureUrl":"http:\/\/m3.licdn.com\/mpr\/mprx\/0__kCAYSCgPN5MNbC3k4S0Z2mxrFURPBa3kvpyZ2xAO-VZNny76NijV6cGgFE",
+                  "currentLocation":"Greater Philadelphia Area",
+                  "aboutMe":"Project Manager, Technical Architect, Application Developer, and Database Administrator in a wide variety of business applications.  Interested in SharePoint, Documentum, Java, C#, JavaScript, HTML, web services, portal frameworks, document management, and databases.\n\nWide ranging experience in the pharmaceutical, financial, energy, and retail industries.",
+                  "emails":[
+                     {
+                        "value":"toconnor@wingspan.com",
+                        "is_verified":true
+                     }
+                  ],
+                  "urls":[
+                     {
+                        "value":"http:\/\/www.linkedin.com\/in\/oconnor",
+                        "type":"profile"
+                     }
+                  ],
+                  "accounts":[
+                     {
+                        "domain":"linkedin.com",
+                        "userid":"e37krkY44O"
+                     }
+                  ],
+                  "photos":[
+                     {
+                        "value":"http:\/\/m3.licdn.com\/mpr\/mprx\/0_B1FpRCh70bmK0re3zr9_R3Kux3UYj9J4vB1_Rh3j8b7mGtaTRzcrv8v1l2RTYA4DnrLGqb1aCONe",
+                        "size":"2:XS"
+                     },
+                     {
+                        "value":"http:\/\/m3.licdn.com\/mpr\/mprx\/0__kCAYSCgPN5MNbC3kQS0Z2mxrFURPBa4kvpyZ2xAO-VZNny76NijV6cGgFE",
+                        "size":"5:L"
+                     }
+                  ],
+                  "organizations":[
+                     {
+                        "name":"Wingspan Technology",
+                        "industry":"Computer Software",
+                        "title":"Principal Technologist",
+                        "startDate":"2000-03"
+                     }
+                  ]
+               }
+            }
+         }
+      }
+   }
+}

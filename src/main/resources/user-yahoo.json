@@ -1,0 +1,80 @@
+// https://toconnor.api.oneall.com/connections/0ca1c500-874b-4af5-88bb-d5d4544cb5d8.json
+{
+   "response":{
+      "request":{
+         "date":"Tue, 28 May 2013 04:05:09 +0200",
+         "resource":"\/connections\/0ca1c500-874b-4af5-88bb-d5d4543cb5d8.json",
+         "status":{
+            "flag":"success",
+            "code":200,
+            "info":"Your request has been processed successfully"
+         }
+      },
+      "result":{
+         "status":{
+            "flag":"success",
+            "code":200,
+            "info":"The user successfully authenticated"
+         },
+         "data":{
+            "action":"authenticate_user",
+            "plugin":{
+               "key":"social_login",
+               "data":{
+                  "action":"login",
+                  "operation":"user_profile_read",
+                  "reason":"user_authenticated",
+                  "status":"success"
+               }
+            },
+            "connection":{
+               "connection_token":"0ca1c500-874b-4af5-88bb-d5d4543cb5d8",
+               "date":"Tue, 28 May 2013 03:58:05 +0200"
+            },
+            "user":{
+               "uuid":"3b509f4d-6517-43e2-9b84-2131c81e091a",
+               "user_token":"3b509f4d-6517-43e2-9b84-2131c81e091a",
+               "identity":{
+                  "identity_token":"61959ba8-3ce3-4675-8310-e254d5e512be",
+                  "provider":"yahoo",
+                  "source":{
+                     "name":"Yahoo",
+                     "key":"yahoo"
+                  },
+                  "id":"https:\/\/me.yahoo.com\/a\/rnWIXyo.1vPSFltIB3aU8GnFRTQ-",
+                  "displayName":"Ted O Connor",
+                  "name":{
+                     "formatted":"Ted O Connor",
+                     "givenName":"Ted",
+                     "familyName":"O Connor"
+                  },
+                  "thumbnailUrl":"https:\/\/s.yimg.com\/dh\/ap\/social\/profile\/profile_b48.png",
+                  "pictureUrl":"https:\/\/s.yimg.com\/dh\/ap\/social\/profile\/profile_b48.png",
+                  "gender":"male",
+                  "utcOffset":"-4:00",
+                  "emails":[
+                     {
+                        "value":"oconnmi@yahoo.com",
+                        "is_verified":true
+                     }
+                  ],
+                  "photos":[
+                     {
+                        "value":"https:\/\/s.yimg.com\/dh\/ap\/social\/profile\/profile_b48.png",
+                        "size":"4:M"
+                     }
+                  ],
+                  "languages":[
+                     {
+                        "value":"English"
+                     },
+                     {
+                        "value":"English"
+                     }
+                  ]
+               }
+            }
+         }
+      }
+   }
+}

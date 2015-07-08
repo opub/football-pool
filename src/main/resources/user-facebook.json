@@ -1,0 +1,116 @@
+// https://toconnor.api.oneall.com/connections/af80713c-2187-400c-b4f1-98f6d58dc641.json
+{
+   "response":{
+      "request":{
+         "date":"Wed, 29 May 2013 03:18:07 +0200",
+         "resource":"\/connections\/af80713c-2187-400c-b4f1-98f6d58dc641.json",
+         "status":{
+            "flag":"success",
+            "code":200,
+            "info":"Your request has been processed successfully"
+         }
+      },
+      "result":{
+         "status":{
+            "flag":"success",
+            "code":200,
+            "info":"The user successfully authenticated"
+         },
+         "data":{
+            "action":"authenticate_user",
+            "plugin":{
+               "key":"social_login",
+               "data":{
+                  "action":"login",
+                  "operation":"user_profile_read",
+                  "reason":"user_authenticated",
+                  "status":"success"
+               }
+            },
+            "connection":{
+               "connection_token":"af80713c-2187-400c-b4f1-98f6d58dc741",
+               "date":"Wed, 29 May 2013 03:15:20 +0200"
+            },
+            "user":{
+               "uuid":"304552fa-bacb-4705-b512-4d47ed2efe21",
+               "user_token":"304552fa-bacb-4705-b522-4d47e32efe21",
+               "identity":{
+                  "identity_token":"3734f49c-0fe7-48ea-aac1-c57c2f5c2976",
+                  "provider":"facebook",
+                  "source":{
+                     "name":"Facebook",
+                     "key":"facebook"
+                  },
+                  "id":"http:\/\/www.facebook.com\/profile.php?id=696317950",
+                  "displayName":"Ted O'Connor",
+                  "name":{
+                     "formatted":"Ted O'Connor",
+                     "givenName":"Ted",
+                     "familyName":"O'Connor"
+                  },
+                  "preferredUsername":"oconnor",
+                  "profileUrl":"http:\/\/www.facebook.com\/oconnor",
+                  "thumbnailUrl":"http:\/\/graph.facebook.com\/696317950\/picture?type=square",
+                  "pictureUrl":"http:\/\/graph.facebook.com\/696317950\/picture?type=large",
+                  "gender":"male",
+                  "birthday":"04\/01\/1900",
+                  "utcOffset":"-4:00",
+                  "currentLocation":"Hilltown, Pennsylvania",
+                  "emails":[
+                     {
+                        "value":"toconnor@gmail.com",
+                        "is_verified":true
+                     }
+                  ],
+                  "urls":[
+                     {
+                        "value":"http:\/\/www.facebook.com\/oconnor",
+                        "type":"profile"
+                     }
+                  ],
+                  "accounts":[
+                     {
+                        "domain":"facebook.com",
+                        "userid":"696317950",
+                        "username":"oconnor"
+                     }
+                  ],
+                  "photos":[
+                     {
+                        "value":"http:\/\/graph.facebook.com\/696317950\/picture?type=square",
+                        "size":"2:XS"
+                     },
+                     {
+                        "value":"http:\/\/graph.facebook.com\/696317950\/picture?type=small",
+                        "size":"3:S"
+                     },
+                     {
+                        "value":"http:\/\/graph.facebook.com\/696317950\/picture?type=normal",
+                        "size":"4:M"
+                     },
+                     {
+                        "value":"http:\/\/graph.facebook.com\/696317950\/picture?type=large",
+                        "size":"5:L"
+                     }
+                  ],
+                  "educations":[
+                     {
+                        "value":"Christian Brothers Academy",
+                        "type":"High School"
+                     },
+                     {
+                        "value":"Villanova University",
+                        "type":"College"
+                     }
+                  ],
+                  "organizations":[
+                     {
+                        "name":"Wingspan Technology Inc."
+                     }
+                  ]
+               }
+            }
+         }
+      }
+   }
+}

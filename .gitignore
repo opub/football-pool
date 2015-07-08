@@ -1,0 +1,5 @@
+/target
+/src/main/webapp/VAADIN/gwt-unitCache
+/src/main/webapp/VAADIN/widgetsets/WEB-INF/deploy
+/src/main/webapp/VAADIN/widgetsets/com.toconnor.pool.WidgetSet
+*.iws

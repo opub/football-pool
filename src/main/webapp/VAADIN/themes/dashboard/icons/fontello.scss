@@ -1,0 +1,60 @@
+@mixin icons-fontello {
+
+	@font-face {
+	  font-family: 'fontello';
+	  src: url(fontello.eot);
+	  src: url(fontello.eot?#iefix) format('embedded-opentype'), url(fontello.woff) format('woff'), url(fontello.ttf) format('truetype'), url(fontello.svg#fontello) format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
+	
+	[class^="icon-"] > .v-button-wrap:before,
+	[class*=" icon-"] > .v-button-wrap:before,
+	[class^="icon-"].v-nativebutton:before,
+	[class*=" icon-"].v-nativebutton:before,
+	[class^="icon-"].v-label:before,
+	[class*=" icon-"].v-label:before,
+	[class*="-icon-"].v-menubar-menuitem:before {
+	  font-family: 'fontello';
+	  font-style: normal;
+	  font-weight: normal;
+	  speak: none;
+	  display: inline-block;
+	  text-decoration: inherit;
+	  text-align: center;
+	  line-height: 1;
+	  margin-right: .4em;
+	  vertical-align: 1px;
+	}
+	
+	[class^="icon-"] > .v-button-wrap:before,
+	[class*=" icon-"] > .v-button-wrap:before,
+	[class^="icon-"].v-nativebutton:before,
+	[class*=" icon-"].v-nativebutton:before {
+		margin: 0;
+		margin-left: -.3em;
+	}
+	
+	[class^="icon-"] > span > .v-button-caption,
+	[class^="icon-"] > .v-nativebutton-caption,
+	[class*=" icon-"] > span > .v-button-caption,
+	[class*=" icon-"] > .v-nativebutton-caption {
+	  margin-left: .3em;
+	}
+	
+	@include icon(home, '\2302');
+	@include icon(teams, '\e77c');
+	@include icon(games, '\f0cb');
+	@include icon(week, '\e801');	
+	@include icon(season, '\1f3c6');
+	@include icon(talk, '\e803');
+	@include icon(rules, '\1f4cb');	
+	@include icon(cog, '\2699');
+	@include icon(user, '\1f464');
+	@include icon(attention, '\26a0');
+	@include icon(edit, '\270d');
+	@include icon(bell, '\1f514');
+	@include icon(cancel, '\2715');	
+	@include icon(logout, '\e741');
+    @include icon(up-down, '\e74f');
+}
