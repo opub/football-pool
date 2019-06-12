@@ -9,3 +9,11 @@ A Pick'em Football Pool written in Java using [Vaadin 7](https://vaadin.com/home
 - There are a couple debugging endpoints that only use security by obscurity.
 
 - See TODOs in the code for additional setup that is required for SSO registration, etc.
+
+## Authors
+
+* **Ted O'Connor** - [opub](https://github.com/opub)
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
